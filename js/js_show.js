@@ -23,7 +23,7 @@
 
 
 	function send(problem) {
-	    var url = 'http://api.ruyi.ai/v1/message?' + "app_key=daab3916-d808-4173-b875-a8a099ae6f15&user_id=56789&q=" + problem;
+	    var url = 'https://api.ruyi.ai/v1/message?' + "app_key=daab3916-d808-4173-b875-a8a099ae6f15&user_id=56789&q=" + problem;
 	    if (request) {
 	        request.open("GET", url, true); //使用POST异步传输
 	        request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
